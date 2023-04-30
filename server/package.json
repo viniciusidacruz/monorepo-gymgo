@@ -1,0 +1,40 @@
+{
+  "name": "monorepo-todo-master-backend",
+  "version": "1.0.0",
+  "description": "Aplicação construída para o gerenciamento de um Todo avançado com alguns conceitos importantes como: bancos relacionais, ferramentas atualizadas do mercado como Fastify, ORM Prisma, SOLID e entre outros",
+  "main": "src/server.ts",
+  "engines": {
+    "node": ">=16.20.0",
+    "yarn": "please-use-npm",
+    "pnpm": "please-use-npm",
+    "npm": ">=8.19.4"
+  },
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [
+    "fastify",
+    "node",
+    "authentication",
+    "typescript",
+    "prisma",
+    "solid",
+    "postgress",
+    "docker"
+  ],
+  "author": "Vinicius Italo da Cruz",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "18.16.3",
+    "tsup": "6.7.0",
+    "tsx": "3.12.7",
+    "typescript": "5.0.4"
+  },
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "fastify": "4.17.0",
+    "zod": "3.21.4"
+  }
+}
