@@ -1,7 +1,7 @@
 {
-  "name": "monorepo-todo-master-backend",
+  "name": "api-gymgo",
   "version": "1.0.0",
-  "description": "Aplicação construída para o gerenciamento de um Todo avançado com alguns conceitos importantes como: bancos relacionais, ferramentas atualizadas do mercado como Fastify, ORM Prisma, SOLID e entre outros",
+  "description": "Aplicação construída para o gerenciamento de um sistema full stack para busca de academias ao arredores com alguns conceitos importantes como: bancos relacionais, ferramentas atualizadas do mercado como Fastify, ORM Prisma, SOLID e entre outros",
   "main": "src/server.ts",
   "engines": {
     "yarn": "please-use-npm",

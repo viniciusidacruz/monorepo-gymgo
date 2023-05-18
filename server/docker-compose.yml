@@ -1,11 +1,11 @@
 version: '3'
 
 services:
-  api-boardfy:
+  api-gymgo:
     image: bitnami/postgresql:latest
     ports:
       - 5432:5432
     environment:
       - POSTGRESQL_PASSWORD=docker
       - POSTGRESQL_USERNAME=docker
-      - POSTGRESQL_DATABASE=boardfy
+      - POSTGRESQL_DATABASE=gymgo

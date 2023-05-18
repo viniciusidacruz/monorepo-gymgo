@@ -1,8 +1,8 @@
-# BoardFy
+# GymGo
 
 ---
 
-Aplicação construída como Monorepo para construção de um Todo avançado com alguns conceitos importantes em ambas sides como backend com bancos relacionais, ferramentas atualizadas do mercado como Fastify, ORM Prisma, SOLID e entre outros. Front-end com alguns conceitos importantes e ferramentas atualizadas como: Next JS 13, Tailwind CSS, Typescript e SOLID.
+Aplicação construída como Monorepo para construção de um sistema full stack para busca de academias ao arredores com alguns conceitos importantes em ambas sides como backend com bancos relacionais, ferramentas atualizadas do mercado como Fastify, ORM Prisma, SOLID e entre outros. Front-end com alguns conceitos importantes e ferramentas atualizadas como: Next JS 13, Tailwind CSS, Typescript e SOLID.
 
 Dentro da pasta server irá ser acoplado todo o código do back-end e para funcionar corretamente no seu local, basta seguir os passos a passos da inicialização do projeto e dentro da pasta client irá ficar o código responsável pelo front-end e também deve-se seguir os passos a passos da inicialização.
 
