@@ -4,10 +4,8 @@
   "description": "Aplicação construída para o gerenciamento de um Todo avançado com alguns conceitos importantes como: bancos relacionais, ferramentas atualizadas do mercado como Fastify, ORM Prisma, SOLID e entre outros",
   "main": "src/server.ts",
   "engines": {
-    "node": ">=16.20.0",
     "yarn": "please-use-npm",
-    "pnpm": "please-use-npm",
-    "npm": ">=8.19.4"
+    "pnpm": "please-use-npm"
   },
   "scripts": {
     "start:dev": "tsx watch src/server.ts",
