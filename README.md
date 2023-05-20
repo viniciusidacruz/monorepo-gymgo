@@ -10,7 +10,9 @@ Dentro da pasta server irá ser acoplado todo o código do back-end e para funci
 
 Aplicação criada com alguns conceitos e regras que deve-se ser realizados como, instalar um gerenciador de versão do node (NVM) e para gerenciadores de pacotes deve-se ressaltar que esteja o npm esteja instalado e a versão seja 8.19 para que não haja divergência.
 
-Para casos de testes, assim que finalizar a criação de um módulo, pode-se ser testado indo na pasta "request" e criar uma conexão HTTP através dos arquivos com extensão .http e clicando em "send request".
+Para casos de testes ao invés de usar o postamn ou outro programa, assim que finalizar a criação de um módulo, pode-se ser testado indo na pasta "request" e criar uma conexão HTTP através dos arquivos com extensão .http e clicando em "send request".
+
+Para cada feature que for realizada no projeto, deve-se rodar os testes para verificar se todos os testes estão com minimo de 95% de cobertura.
 
 ## Setup
 
@@ -43,3 +45,4 @@ Para visualizar as tabelas do banco para consulta, basta rodar o seguinte comand
 ```
     npx prisma studio
 ```
+
