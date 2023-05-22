@@ -3,7 +3,7 @@ import { hash } from "bcryptjs";
 import { UsersRepository } from "@/repositories";
 import { UserAlreadyExistsError } from "@/use-cases/errors";
 
-import { IRegisterUseCase, IRegisterUseCaseResponse } from "./types";
+import { IRegisterUseCaseRequest, IRegisterUseCaseResponse } from "./register-case.types";
 
 export class RegisterUseCase {
   constructor(private usersRepository: UsersRepository) {}
@@ -12,7 +12,7 @@ export class RegisterUseCase {
     name,
     email,
     password,
-  }: IRegisterUseCase): Promise<IRegisterUseCaseResponse> {
+  }: IRegisterUseCaseRequest): Promise<IRegisterUseCaseResponse> {
     const password_hash = await hash(password, 6);
 
     const userWithSameEmail = await this.usersRepository.findByEmail(email);

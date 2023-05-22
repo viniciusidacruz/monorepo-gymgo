@@ -1,6 +1,6 @@
 import { User } from "@prisma/client";
 
-export interface IRegisterUseCase {
+export interface IRegisterUseCaseRequest {
     name: string;
     email: string;
     password: string;
