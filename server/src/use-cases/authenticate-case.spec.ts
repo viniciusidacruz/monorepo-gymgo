@@ -27,8 +27,6 @@ describe("AuthenticateUseCase", () => {
       email: "johndoe@example.com",
     });
 
-    console.log('Usuário: ', user)
-
     expect(user.id).toEqual(expect.any(String));
   });
 
